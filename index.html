@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رضا کریمی | فول‌استک فرانت‌اند</title>
+<style>
+:root{--bg:#000;--fg:#fff;--accent:#0af}
+body.light{--bg:#fff;--fg:#000;--accent:#06c}
+body{font-family:Vazirmatn,sans-serif;background:var(--bg);color:var(--fg);margin:0}
+header{padding:30px;display:flex;justify-content:space-between}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:40px}
+.project{background:#111;padding:20px;border-radius:12px;border:1px solid #333}
+body.light .project{background:#f5f5f5;border-color:#ddd}
+.skills{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;padding:40px}
+.skill{border:1px solid var(--accent);padding:8px 16px;border-radius:20px}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+</head>
+<body>
+<header><div>رضا کریمی</div><button onclick="document.body.classList.toggle('light')">تم</button></header>
+<section style="text-align:center;padding:100px 20px">
+<h1>فول‌استک فرانت‌اند</h1>
+<p>ساخت واجه‌های سریع، مینیمال و قابل استفاده با React و Next.js</p>
+</section>
+<section class="projects">
+<div class="project"><h3>داشبورد تحلیل</h3><p>ری‌اکت + TypeScript</p></div>
+<div class="project"><h3>لندینگ SaaS</h3><p>نکست.جی‌اس + Tailwind</p></div>
+<div class="project"><h3>اپ موبایل</h3><p>ری‌اکت نیتیو</p></div>
+</section>
+<section class="skills">
+<span class="skill">React</span><span class="skill">Next.js</span><span class="skill">TypeScript</span><span class="skill">Tailwind</span><span class="skill">Node</span>
+</section>
+<footer style="text-align:center;padding:40px">reza@frontend.dev | تهران</footer>
+</body>
+</html>

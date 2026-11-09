@@ -1,2 +1,5 @@
-# portfolio-frontend-reza-1405
-پورتفولیو و رزومه فول‌استک فرانت‌اند رضا کریمی
+# پورتفولیو رضا کریمی
+
+پورتفولیو فول‌استک فرانت‌اند کامل فارسی.
+
+https://beig-rules.github.io/portfolio-frontend-reza-1405/
